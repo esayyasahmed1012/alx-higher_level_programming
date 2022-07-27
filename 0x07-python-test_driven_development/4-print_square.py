@@ -1,24 +1,16 @@
 #!/usr/bin/python3
+"""
+This is the "4-print_square" module.
+
+The 4-print_square  module supplies one function, print_square(size).
+"""
 
 
 def print_square(size):
-    """
-    prints a square of given size
-    unit tests are located in tests/4-print_square.txt
-    """
-    if not isinstance(size, (int, float)):
+    """prints a square with "#"'s that has a length of size """
+    if type(size) is not int:
         raise TypeError("size must be an integer")
-    elif size < 0:
-        if isinstance(size, float):
-            raise TypeError("size must be an integer")
-        else:
-            raise ValueError("size must be >= 0")
-
-    size = int(size)  # if it was a float convert it
-    i = 0
-
-    for i in range(0, size):
-        j = 0
-        for j in range(0, size):
-            print('#', end='')
-        print()
+    if size < 0:
+        raise ValueError("size must be >= 0")
+    if size > 0:
+        print(("#" * size + "\n") * size, end="")
