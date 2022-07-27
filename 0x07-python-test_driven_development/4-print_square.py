@@ -1,23 +1,24 @@
 #!/usr/bin/python3
-"""
-Print Square module, for printing squares with "#".
-
-useful for all square-based applications
-"""
 
 
 def print_square(size):
-    """size is the size length of the square
-    size must be an integer
     """
+    prints a square of given size
+    unit tests are located in tests/4-print_square.txt
+    """
+    if not isinstance(size, (int, float)):
+        raise TypeError("size must be an integer")
+    elif size < 0:
+        if isinstance(size, float):
+            raise TypeError("size must be an integer")
+        else:
+            raise ValueError("size must be >= 0")
 
-    # size must be an integer, otherwise raise a TypeError
-    if not isinstance(size, int):
-        raise TypeError('size must be an integer')
-    # if size is less than 0, raise a ValueError
-    if size < 0:
-        raise ValueError('size must be >= 0')
-    # size is equal to lado por lado
+    size = int(size)  # if it was a float convert it
+    i = 0
 
-    for x in range(size):
-        print('#' * size)
+    for i in range(0, size):
+        j = 0
+        for j in range(0, size):
+            print('#', end='')
+        print()
