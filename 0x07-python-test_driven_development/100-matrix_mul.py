@@ -6,7 +6,7 @@
 
 def matrix_mul(m_a, m_b):
     """ Multiplies two matrices. Validation of matrices must be done in the
-        stated order.
+        stated orderis.
 
     Args:
         m_a (:obj:`list' of :obj:`list` of int or float): List of lists of
