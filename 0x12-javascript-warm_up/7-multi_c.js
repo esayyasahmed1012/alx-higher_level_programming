@@ -5,5 +5,5 @@ if (isNaN(Number(args[2]))) {
 } else {
   for (let i = 0; i < Number(args[2]); i++) {
     console.log('C is fun');
-   }
+  }
 }
