@@ -1,6 +1,5 @@
 #!/usr/bin/node
+// function that increments and calls a function.
 exports.addMeMaybe = function (number, theFunction) {
-  number++;
-  theFunction(number);
+  return theFunction(number += 1);
 };
-
