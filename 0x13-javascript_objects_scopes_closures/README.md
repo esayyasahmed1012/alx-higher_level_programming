@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 vaScript - Objects, Scopes and Closures
+=======
+
+0x13. JavaScript - Objects, Scopes and Closures
+>>>>>>> 08f56576a66bc7528aec04515e8a090fa9030eda
 JavaScript
  By: Guillaume
  Weight: 1
