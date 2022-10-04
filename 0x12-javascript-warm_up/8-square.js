@@ -9,5 +9,5 @@ if (Number.isNaN(size)) {
       s += 'X';
     }
     console.log(s);
-   }
+  }
 }
