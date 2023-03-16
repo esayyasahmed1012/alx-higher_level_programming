@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "vigation\r 0x14. JavaScript - Web scraping\r Scripting\r API\r JavaScript\r  By: Guillaume, CTO at Holberton School\r  Weight: 1\r  Project will start Nov 15, 2022 6:00 AM, must end by Nov 16, 2022 6:00 AM\r  was released at Nov 15, 2022 12:00 PM\r  An auto review will be launched at the deadline\r Resources\r Read or watch:",
+  "main": "0-readme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
